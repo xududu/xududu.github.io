@@ -8,3 +8,5 @@ theme = 'ananke'
   date_format = "2006年01月02日"
   languageCode = 'zh-CN'
 
+# 极简主题
+# https://github.com/vran-dev/hugo-zenHo/blob/master/README_ZH.md
