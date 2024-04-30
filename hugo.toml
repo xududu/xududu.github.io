@@ -1,4 +1,10 @@
 baseURL = 'https://xududu.github.io/'
-languageCode = 'zh-cn'
 title = 'xududu'
 theme = 'ananke'
+
+[params]
+  body_classes = "baskerville bg-near-white"
+  show_reading_time = true
+  date_format = "2006年01月02日"
+  languageCode = 'zh-CN'
+
