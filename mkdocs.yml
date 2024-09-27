@@ -6,11 +6,17 @@ plugins:
   - search
   - blog:
       blog_toc: true
+      archive_name: 按月分类
       archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy/MM
       categories_allowed:
         - blog
         - 读书笔记
       pagination_per_page: 5
+      # pagination: false
+      pagination_url_format: "page/{page}"
+      pagination_format: "~2~"
+      pagination_keep_content: true
   - tags
 
 theme:
@@ -67,7 +73,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/xududu
       name: GitHub
+
 nav:
   - 家目录: index.md
-  - 日志:
+  - 日常记录:
       - blog/index.md
+      # - 故事: blog/posts/故事.md
