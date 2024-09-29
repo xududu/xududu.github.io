@@ -80,7 +80,7 @@ extra:
       name: GitHub
 
 nav:
-  - 主页: index.md
+  - 首页: index.md
   - 日常记录:
       - blog/index.md
       # - 故事: blog/posts/故事.md
