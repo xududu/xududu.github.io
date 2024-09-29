@@ -21,6 +21,7 @@ plugins:
 
 theme:
   name: material
+  # custom_dir: ./overrides/
   language: zh
   features:
     - navigation.indexes
