@@ -2,6 +2,7 @@ site_name: xududu
 site_url: https://xududu.github.io/
 site_description: xududu's blog
 repo_url: https://github.com/xududu/xududu.github.io
+repo_name: xududu
 
 plugins:
   - search
@@ -18,10 +19,14 @@ plugins:
       pagination_format: "~2~"
       pagination_keep_content: true
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 theme:
   name: material
   language: zh
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.indexes
     - navigation.instant
