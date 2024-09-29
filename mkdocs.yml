@@ -75,7 +75,7 @@ extra:
       name: GitHub
 
 nav:
-  - 家目录: index.md
+  - 主页: index.md
   - 日常记录:
       - blog/index.md
       # - 故事: blog/posts/故事.md
