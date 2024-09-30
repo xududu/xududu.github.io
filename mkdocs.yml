@@ -19,6 +19,7 @@ plugins:
       pagination_url_format: "page/{page}"
       pagination_format: "~2~"
       pagination_keep_content: true
+      post_readtime_words_per_minute: 265
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
@@ -45,22 +46,28 @@ theme:
     - navigation.footer
 
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: cyan
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: 切换暗色主题
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: black
       accent: blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: 切换亮色主题
 
 copyright: "Copyright &copy; 2024 xwx"
