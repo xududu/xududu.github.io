@@ -81,8 +81,6 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
     - icon: fontawesome/brands/github
       link: https://github.com/xududu
       name: GitHub
